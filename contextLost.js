@@ -1,7 +1,7 @@
 let group = {
     title: 'Java 2022',
     students: ['Olga', 'Anastasia', 'Sophia'],
-    showList: function (){
+    showList: function () {
         const show = function (name, title) {
             console.log(`${title}: ${name}`);
         }
@@ -13,7 +13,7 @@ let group = {
 let group1 = {
     title: 'Java 2022',
     students: ['Olga', 'Anastasia', 'Sophia'],
-    showList: function (){
+    showList: function () {
         const show = function (name) {
             console.log(`${this.title}: ${name}`);
         }
